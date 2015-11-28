@@ -3,6 +3,7 @@
 # Rev. 1.2.0 - 10/30/2015
 # This version removes the servo control and activates another relay instead
 # Also added PIR detection of victims so routine doesn't run continually
+# Designed for use on a Raspberry Pi computer
 
 # Initialize
 import pygame, time, sys, serial
