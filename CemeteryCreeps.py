@@ -1,9 +1,12 @@
 # Cemetery Creeps - Halloween 2015
 # by Sean Clay
 # Rev. 1.2.0 - 10/30/2015
-# This version removes the servo control and activates another relay instead
-# Also added PIR detection of victims so routine doesn't run continually
+# Added PIR detection of victims so routine doesn't run continually
 # Designed for use on a Raspberry Pi computer with GPIO pins
+# Two skeleton dogs and skeleton child are contolled by a separate controller triggered by Relay #8 (no voltage)
+# Two skeleton cats are triggered by Relays #5 & #6 and rat is triggered by Relay #7 (no voltage)
+# The main skeleton is controlled by a separate controller and will stop and 'talk' when triggered by Relay#4 (no voltage)
+# The fog machine & strobe for Monster In Box is triggered by Relay #1 (12v)
 
 # Initialize
 import pygame, time, sys, serial
